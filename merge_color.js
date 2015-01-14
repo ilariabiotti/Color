@@ -1,4 +1,4 @@
 function mergeColor(r, g, b) {
-	return {colorValue};
+	return (r<<16) + (g<<8) + b
 }
-console.log(mergeColor(0xFFFF00));
+console.log(mergeColor(12,6,3));
